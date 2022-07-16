@@ -1,6 +1,5 @@
 ## What's new:  
 ### Fixed a bug that could not be imported
-### Added a description of the Home page library
 
 ## Thank you ztz for providing the name!!!
 

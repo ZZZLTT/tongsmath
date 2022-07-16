@@ -1,3 +1,4 @@
 #!/usr/bin/env python
 # coding: utf-8
-__all__ = ['DPF']
+# use for prime number
+__all__=['DPN']

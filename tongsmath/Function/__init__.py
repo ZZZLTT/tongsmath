@@ -1,3 +1,4 @@
 #!/usr/bin/env python
 # coding: utf-8
-__all__ = ['func']
+# use for function
+__all__=['func']

@@ -1,3 +1,4 @@
 #!/usr/bin/env python
 # coding: utf-8
-__all__ = ['sim2ndrt']
+# use for simplify
+__all__=['sim2ndrt']

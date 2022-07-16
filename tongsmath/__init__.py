@@ -1,9 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
-from Statistics import *
-from Simplify import *
-from Primenumber import *
-from Function import *
+from . import Statistics
+from .Statistics import *
+from . import Simplify
+from .Simplify import *
+from . import Primenumber
+from .Primenumber import *
+from . import Function
+from .Function import *
 ld = """
 Thanks to download tongsmath!
 tongsmath
@@ -19,13 +23,13 @@ tongsmath
                             ylwlim=-100 -> The y-axis minimum, yuplim=100 -> The y-axis maximum)
                 def show(self) : Displays the function image
     Primenumber
-        DPF.py
-               def DPF(n)->list or bool :Returns the prime factor (list) of n,if b is prime number return False.
-                                      e.g. DPF(48)->[2,2,2,2,3] means 48 = 2*2*2*2*3
         DPN.py
                def prime_number_list(n)->list or bool :Returns all prime numbers within n,
                                                   if there is no content in the prime number list return False.
                def is_primenumber(n)->bool :Returns whether n is prime.
+               
+               def DPF(n)->list or bool :Returns the prime factor (list) of n,if b is prime number return False.
+                                      e.g. DPF(48)->[2,2,2,2,3] means 48 = 2*2*2*2*3
     Simplify
         sim2ndrt.py
             def sim2ndrt(n)->list or int :Returns the simplified result of sqrt(n).
@@ -54,5 +58,5 @@ def showld():
 
 
 if __name__ == '__main__':
-    d = data.Data([1, 2, 3, 4, 5, 6])
+    d = Statistics.data.Data([1, 2, 3, 4, 5, 6])
     print(d)

@@ -1,3 +1,4 @@
 #!/usr/bin/env python
 # coding: utf-8
-__all__ = ['data']
+# use for statistics
+__all__=['data']

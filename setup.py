@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name='tongsmath',
-    version='1.3.6',
+    version='1.3.15',
     author='Tong',
     author_email='3231690635@qq.com',
     description='tong\'s math library',
